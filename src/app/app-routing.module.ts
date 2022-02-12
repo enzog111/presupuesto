@@ -9,7 +9,7 @@ import { GastosComponent } from './components/gastos/gastos.component';
   const routes: Routes = [
     {path:'', redirectTo:'/IngresarPresupuesto', pathMatch: 'full'},
     {path:'IngresarPresupuesto',component:IngresarPresupuestoComponent},
-    {path:'gasto',component:GastosComponent},
+    {path:'gastos',component:GastosComponent},
     {path:'**',redirectTo:'/IngresarPresupuesto', pathMatch: 'full'}
   
 ];
